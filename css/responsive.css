@@ -1,0 +1,2074 @@
+@media screen and (max-width:991px){
+    .header nav.menu ul{
+        position:fixed;
+        bottom:0;
+        left:0;
+        top:0;
+        margin-left:-1000px;
+        z-index:1;
+        background-color:#272727;
+        -moz-box-shadow:5px 0 10px rgba(0,0,0,.3);
+        -webkit-box-shadow:5px 0 10px rgba(0,0,0,.3);
+        box-shadow:5px 0 10px rgba(0,0,0,.3)
+    }
+    .header nav.menu.active{
+        position:fixed;
+        left:0;
+        bottom:0;
+        top:0;
+        width:100%
+    }
+    .header nav.menu.active ul{
+        margin-left:0;
+        -moz-transition:margin-left .25s;
+        -o-transition:margin-left .25s;
+        -webkit-transition:margin-left .25s;
+        transition:margin-left .25s;
+        width:75vw;
+        overflow-y:scroll
+    }
+    .header nav.menu.active ul li{
+        display:block;
+        border-bottom:1px solid rgba(255,255,255,.2);
+        padding:10px 0 10px 15px
+    }
+    .header nav.menu.active ul li:hover .submenu{
+        display:none
+    }
+    .header nav.menu.active ul li a{
+        width:100%
+    }
+    .header nav.menu.active ul li a:hover{
+        background:#5aaed5
+    }
+    .header nav.menu.active ul li .flexbox-container{
+        display:-webkit-flex;
+        display:flex;
+        -webkit-justify-content:space-between;
+        justify-content:space-between
+    }
+    .header nav.menu.active ul li .flexbox-container a{
+        border-right:1px solid rgba(255,255,255,.2)
+    }
+    .header nav.menu.active ul li .icon-arrow{
+        width:40px;
+        padding:0;
+        text-align:center;
+        cursor:pointer;
+        color:#fff;
+        float:unset;
+        margin-top:4px;
+        display:inline
+    }
+    .header nav.menu.active ul li .icon-arrow svg{
+        height:18px;
+        width:15px
+    }
+    .header nav.menu.active ul li .submenu{
+        max-height:0;
+        overflow:hidden;
+        box-shadow:none
+    }
+    .header nav.menu.active ul li.showSubmenu .submenu{
+        max-height:1000px;
+        width:100%;
+        position:relative;
+        display:block;
+        overflow:inherit;
+        background-color:#272727;
+        margin-top:0;
+        padding:5px 0
+    }
+    .header nav.menu.active ul li.showSubmenu .submenu .subOption{
+        border-top:0;
+        border-bottom:none;
+        padding:0 0 0 0
+    }
+    .header nav.menu.active ul li.showSubmenu .submenu .subOption a{
+        padding:5px 2px 5px 20px
+    }
+    .header nav.menu.active ul li.showSubmenu .submenu .subOption a:hover{
+        background:#65c2ed
+    }
+    .header nav.menu.active ul li.showSubmenu .icon-arrow{
+        -moz-transform:rotate(180deg);
+        -ms-transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        transform:rotate(180deg)
+    }
+    .header nav.menu .hamburger{
+        display:inline-block;
+        position:absolute;
+        top:20px;
+        right:20%;
+        padding:12px 25px;
+        color:#fff;
+        cursor:pointer;
+        z-index:2
+    }
+    .header nav.menu .hamburger1{
+        display:inline-block;
+        position:absolute;
+        top:20px;
+        left:20% !important;
+        padding:12px 25px;
+        color:#fff;
+        cursor:pointer;
+        z-index:2
+    }
+    .header nav.menu .hamburger.active{
+        top:72px;
+        left: 76%;
+    }
+    .header nav.menu .hamburger1.active{
+        top:72px;
+        left: 76% !important;
+    }
+    .header nav.menu .hamburger span,.header nav.menu .hamburger span:before,.header nav.menu .hamburger span:after{
+        left:0;
+        border-radius:0;
+        height:2px;
+        width:37px;
+        background:#fff;
+        position:absolute;
+        display:block;
+        content:'';
+        -moz-transition:all .5s ease-in-out;
+        -o-transition:all .5s ease-in-out;
+        -webkit-transition:all .5s ease-in-out;
+        transition:all .5s ease-in-out
+    }
+    .header nav.menu .hamburger span:before{
+        top:-12px
+    }
+    .header nav.menu .hamburger span:after{
+        bottom:-12px
+    }
+    .header nav.menu .hamburger.active span{
+        background-color:transparent
+    }
+    .header nav.menu .hamburger.active span:before,.header nav.menu .hamburger.active.active span:after{
+        top:0
+    }
+    .header nav.menu .hamburger.active span:before{
+        -moz-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+        -webkit-transform:rotate(-45deg);
+        transform:rotate(-45deg)
+    }
+    .header nav.menu .hamburger.active span:after{
+        -moz-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        transform:rotate(45deg)
+    }
+}
+@media only screen and (min-width:240px) and (max-width:479px){
+    .covid_protocol{
+        display:block;
+        width:100%;
+        text-align:center;
+        padding-top:5px
+    }
+    .covid_protocol h5{
+        font-size:10px;
+        top:0
+    }
+    .topnav ul{
+        float:unset;
+        text-align:center
+    }
+    .header{
+        top:54px
+    }
+    .header .logo a img{
+        width:180px
+    }
+    header{
+        height:130px
+    }
+    .topnav ul li a svg{
+        padding:3px;
+        width:20px!important;
+        height:20px
+    }
+    .topnav ul li svg{
+        margin:0 0 0 6px
+    }
+    .topnav ul li img{
+        width:17px;
+        margin-right:6px
+    }
+    .botarrow{
+        display:none
+    }
+    .bannertopimg{
+        height:180px;
+        background-position:center
+    }
+    .portfolio{
+        padding-top:4rem;
+        padding-bottom:5rem
+    }
+    .title{
+        font-size:12px;
+        margin-bottom:8px
+    }
+    .subtitle{
+        font-size:22px;
+        width:100%;
+        margin:unset
+    }
+    section.portfolio p{
+        font-size:12px
+    }
+    .portfolio .allproject .projectbox{
+        max-width:100%;
+        outline-offset:-10px;
+        margin-bottom:2.5rem
+    }
+    .portfolio .allproject .projectbox .image{
+        width:100%;
+        height:auto
+    }
+    .portfolio .allproject .projectbox .description{
+        padding:15px 20px 25px
+    }
+    .portfolio .allproject .projectbox .description .name{
+        font-size:16px;
+        letter-spacing:.25px
+    }
+    .video_bg .subtitle br{
+        display:none
+    }
+    .video_bg .subtitle{
+        font-size:23px
+    }
+    .video_bg{
+        height:190px;
+        padding-top:2rem;
+        background-position:center top;
+        background-attachment:unset
+    }
+    .video_bg img{
+        max-width:36px
+    }
+    .testimonial{
+        padding-top:4.6rem;
+        padding-bottom:4.6rem
+    }
+    .testimonial .subtitle br{
+        display:none
+    }
+    .testimonial .testimonialbg{
+        margin-top:2rem
+    }
+    .testimonial .swiper-slide{
+        padding:10px 0 0
+    }
+    .testimonial .testbox{
+        padding:0 10px;
+        height:auto;
+        min-height:543px;
+        display:block
+    }
+    .testimonial .testbox .image{
+        display:block;
+        width:100%;
+        font-size:12px;
+        margin:14px 0 23px
+    }
+    .testimonial .testbox .image .name{
+        margin-bottom:5px
+    }
+    .testimonialhome .swiper-button-next,.testimonialhome .swiper-button-prev{
+        top:auto;
+        bottom:0
+    }
+    .testimonialhome .swiper-button-prev,.testimonialhome .swiper-container-rtl .swiper-button-next{
+        left:20%;
+        right:auto
+    }
+    .testimonialhome .swiper-button-next,.testimonialhome .swiper-container-rtl .swiper-button-prev{
+        right:20%;
+        left:auto
+    }
+    section.testimonial .testbox .text{
+        display:block;
+        max-width:100%;
+        width:90%;
+        margin:auto
+    }
+    section.testimonial .testbox .text .testtitle{
+        font-size:18px;
+        text-align:center;
+        margin-bottom:20px
+    }
+    .testimonial .testbox .text p{
+        text-align:center
+    }
+    .testimonial .swiper-button-prev:after,.testimonial .swiper-button-next:after{
+        font-size:20px
+    }
+    .testimonial .swiper-container{
+        padding-bottom:2.5rem
+    }
+    .ourclient .container.small img{
+        width:90%
+    }
+    .lookinside{
+        padding:5.5rem 0 4.5rem
+    }
+    .lookinside .description{
+        width:100%;
+        padding:25px 15px
+    }
+    .lookinside .description{
+        margin-left:0;
+        height:auto;
+        margin-top:0
+    }
+    .lookinside .description .subtitle{
+        font-size:22px
+    }
+    .lookinside .images{
+        width:100%;
+        height:260px;
+        background-size:cover
+    }
+    .contactsec .numberlist{
+        width:100%;
+        left:0;
+        margin-top:20px
+    }
+    .aboutsec{
+        margin-bottom:3.5rem
+    }
+    .followus{
+        margin-bottom:2.5rem
+    }
+    .contactsec .contactform .sectitle{
+        margin-top:-60px
+    }
+    .contactsec .contactform{
+        padding:35px 15px 25px
+    }
+    .contactform .subtitle{
+        font-size:22px
+    }
+    .contactsec .contactform .row{
+        margin-top:40px
+    }
+    .contactsec .contactform .form-group:last-child{
+        margin-bottom:1.4rem
+    }
+    .homesub_btn{
+        margin-top:.9rem
+    }
+    footer{
+        padding:40px 15px 20px 10px
+    }
+    footer .newslatter{
+        width:100%;
+        margin-bottom:40px
+    }
+    footer .newslatter ul{
+        margin-top:5px;
+        margin-bottom:20px
+    }
+    .video_bg.topsubban{
+        background-position:left top!important;
+        background-size:cover
+    }
+    .counter_box{
+        margin:0 5px;
+        margin-bottom:2rem
+    }
+    .countermainbox{
+        display:block
+    }
+    .counter_main{
+        padding:2.5rem 0 2rem;
+        display:none
+    }
+    .leadership_main{
+        padding:3.4rem 0 2.5rem
+    }
+    .leader_text{
+        padding:.9rem 1rem .1rem;
+        min-height:auto
+    }
+    .leadership_box{
+        margin-top:2rem
+    }
+    .thestudio_main .description p{
+        margin-bottom:15px
+    }
+    .thestudio_main .description{
+        margin-left:0;
+        height:auto;
+        margin-top:0;
+        width:100%;
+        padding:15px 15px 1px
+    }
+    .thestudio_main .studioimg{
+        width:100%;
+        height:260px
+    }
+    .thestudio_main{
+        padding:2rem 0
+    }
+    .thestudio_main .studioimg{
+        width:100%;
+        height:260px
+    }
+    .thestudio_main.rightimg .description{
+        padding:15px 15px 1px
+    }
+    .thestudio_main .description{
+        height:auto;
+        margin-top:0;
+        width:100%
+    }
+    .ourprocess_main{
+        padding:2rem 0 3.6rem
+    }
+    .process_box h4{
+        font-size:14px;
+        margin-bottom:1.4rem
+    }
+    .process_box img{
+        margin-bottom:.9rem
+    }
+    .process_box{
+        margin-bottom:5rem
+    }
+    .process_box::after{
+        right:0;
+        top:unset;
+        left:2px;
+        transform:rotate(90deg)
+    }
+    .ourprocess_main .learnmore{
+        margin-top:-1.5rem;
+        position:relative
+    }
+    .valuemain{
+        margin:2rem 0 2.5rem
+    }
+    .value_box>div{
+        padding-top:0
+    }
+    .value_box{
+        padding:1.1rem 1rem;
+        height:auto;
+        display:block
+    }
+    .vacancies_main{
+        margin:3rem 0 6rem
+    }
+    .accordion .card .card-header .btn-header-link{
+        width:96%
+    }
+    .whyworkus{
+        width:100%;
+        min-height:390px;
+        height:auto;
+        padding:1.5rem .9rem .9rem;
+        display:block
+    }
+    .workwithus{
+        margin-top:2.2rem
+    }
+    .leftright_img{
+        width:100%;
+        height:260px!important
+    }
+    .accordion .card .card-header .btn-header-link:after{
+        position:absolute;
+        right:0
+    }
+    .leftimg .whyworkus{
+        margin-left:0
+    }
+    .leftright_text{
+        width:100%;
+        height:auto;
+        padding:1.2rem 1rem;
+        display:block
+    }
+    .leftright_main{
+        margin:2.5rem 0 3.6rem
+    }
+    .staff_testitext{
+        height:auto;
+        max-width:80%;
+        margin-top:2rem
+    }
+    .career_testimonial{
+        height:auto;
+        padding:2.2rem 0 3.5rem;
+        background-attachment:unset
+    }
+    .stafftesti .swiper-pagination.swiper-pagination-fraction{
+        bottom:-30px
+    }
+    .stafftesti .swiper-button-prev:after,.stafftesti .swiper-button-next:after{
+        font-size:20px
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{
+        bottom:-10px
+    }
+    .career_applyform{
+        margin:0 0 3rem;
+        padding-top:3.5rem
+    }
+    .career_applyform form .form-control{
+        margin-bottom:1rem;
+        padding:12px 15px;
+        height:40px
+    }
+    .career_applyform form{
+        margin-top:2rem
+    }
+    .service_toptext{
+        padding:3rem 0 .1rem
+    }
+    .leftright_text p{
+        margin-bottom:.7rem
+    }
+    .leftimg .leftright_text{
+        margin-left:0
+    }
+    .comservi_main{
+        padding:.5rem 0 3rem;
+        margin-top:5.5rem;
+        margin-bottom:.5rem
+    }
+    .servi_dots ul li{
+        width:100%;
+        margin-bottom:.2rem
+    }
+    .servi_dots ul{
+        margin:1rem 0 0;
+        padding-left:1rem
+    }
+    .service_client{
+        padding:4.5rem 0 4.8rem;
+        background-attachment:unset
+    }
+    .ser_clientbox img{
+        max-width:202px
+    }
+    .servicetesti_box{
+        width:100%;
+        margin:4rem auto;
+        padding:1rem
+    }
+    .lefttesti_img{
+        display:block;
+        width:100%;
+        padding-left:0
+    }
+    .righttesti_text{
+        display:block;
+        width:100%;
+        padding-left:0
+    }
+    .righttesti_text p{
+        margin-bottom:1rem
+    }
+    .leftimg.map_addresh{
+        margin-left:0
+    }
+    .map_addresh{
+        width:100%;
+        padding:.9rem 1.1rem 2px
+    }
+    .address_number>div{
+        width:100%
+    }
+    .mapmian{
+        margin:0 0 4rem
+    }
+    .getknow_people{
+        padding:3rem 0;
+        height:auto;
+        background-attachment:unset
+    }
+    .people_icon a svg{
+        margin-bottom:.3rem
+    }
+    .developer_sertext{
+        margin:2rem 0 5rem
+    }
+    .developer_sertext h2{
+        font-size:18px
+    }
+    .developer_client{
+        padding:3.5rem 0;
+        background-attachment:unset
+    }
+    .developclient_box{
+        margin-top:2rem
+    }
+    .developclient_box img{
+        width:100%
+    }
+    .phase_img img{
+        width:100%;
+        height:340px;
+        object-fit:cover
+    }
+    .phase_text{
+        width:100%;
+        height:auto;
+        padding:1rem 1.2rem
+    }
+    .phase_box{
+        margin:.2rem 0 4rem
+    }
+    .phase2_hw .phase_img img{
+        width:100%;
+        right:0;
+        height:340px;
+        object-fit:cover
+    }
+    .phase2_hw .phase_text{
+        height:auto;
+        padding-top:1rem
+    }
+    .phase3_hw .phase_img img{
+        width:100%;
+        height:340px;
+        object-fit:cover
+    }
+    .phase3_hw .phase_text{
+        height:auto;
+        padding-top:1rem
+    }
+    .notmumbai_main{
+        padding:3rem 0;
+        height:auto;
+        background-attachment:unset
+    }
+    .contactsec{
+        padding-bottom:4.5rem
+    }
+    .projectmain_tab .nav .nav-item .nav-link{
+        font-size:10px;
+        margin:0
+    }
+    .projectmain_tab .nav{
+        justify-content:space-between;
+        margin-bottom:2rem!important
+    }
+    .projectmain_box{
+        max-width:100%;
+        outline-offset:-10px;
+        margin-bottom:2.5rem
+    }
+    .projectmain_box .description{
+        padding:10px 20px 20px
+    }
+    .projectmain_box .description .name{
+        font-size:16px;
+        margin-bottom:.3rem
+    }
+    .projectmain_box .image{
+        width:100%;
+        height:auto
+    }
+    .leftvi .portfoliovideo_text{
+        margin-left:0
+    }
+    .portfoliovideo_text{
+        width:100%;
+        height:auto;
+        padding:1rem
+    }
+    .portfoliovideo_text h2{
+        font-size:20px
+    }
+    .portfoliovideo_text h3{
+        font-size:12px
+    }
+    .portfoliopage_main{
+        padding:4rem 0 2.5rem
+    }
+    .protfolio_videmain{
+        margin:2rem 0 3.5rem
+    }
+    .leftright_text ul li{
+        float:unset;
+        width:100%;
+        margin-bottom:.3rem
+    }
+    .leftright_text h3{
+        font-size:12px;
+        line-height:1.5
+    }
+    .leftright_text h4{
+        font-size:18px;
+        line-height:1.5
+    }
+    .leftright_text h6{
+        margin:-.4rem 0 1rem
+    }
+    .leftright_img.mariaimg{
+        height:400px!important
+    }
+    .supplement_box{
+        margin-bottom:2rem
+    }
+    .supplement_text{
+        padding:1.4rem
+    }
+    .supplement_text h4{
+        font-size:12px;
+        margin-bottom:.9rem
+    }
+    .supplement_main{
+        margin:1rem 0 -1rem
+    }
+    .leftright_text.fheight{
+        height:auto
+    }
+    .post_completion{
+        padding:3.5rem 0;
+        background-attachment:unset
+    }
+    .completion_box h6{
+        font-size:13px
+    }
+    .casestudy_main{
+        margin-top:3rem;
+        margin-bottom:2rem
+    }
+    .casestudy_box{
+        width:100%;
+        height:auto;
+        margin-bottom:2rem
+    }
+    .working_sertext h2{
+        font-size:18px
+    }
+    .working_sertext{
+        margin:1rem 0 3.5rem
+    }
+    .sanitizing_box{
+        min-height:auto;
+        padding:2rem 1rem 1rem .1rem;
+        margin-bottom:1.5rem
+    }
+    .officeseni_main{
+        margin:3.5rem 0 2.4rem
+    }
+    .popup_kaizad{
+        margin-bottom:4.5rem
+    }
+    .popup_kaizad h2{
+        font-size:18px
+    }
+    .covidpopup_box .popupclose{
+        z-index:999
+    }
+    .manymore_design{
+        padding:4rem 0;
+        margin-bottom:4rem
+    }
+    .process_box p{
+        margin-bottom:1.2rem
+    }
+    .ourclient{
+        background-attachment:unset
+    }
+    .tial_br{
+        display:block
+    }
+    .righttesti_text h3{
+        margin-bottom:2rem;
+        line-height:1.5;
+        text-align:center
+    }
+    .lefttesti_img h6{
+        margin-bottom:1.3rem
+    }
+    .lefttesti_img h5{
+        margin-top:14px;
+        margin-bottom:.4rem
+    }
+    .contactsec .numberlist li{
+        margin-left:1.5rem
+    }
+    .numberlist.numblistmobi li a{
+        font-size:14px;
+        letter-spacing:.85px;
+        font-weight:400
+    }
+    .numberlist.numblistmobi li{
+        text-align:center!important;
+        margin:0
+    }
+    .mapimg a{
+        white-space:pre;
+        min-width:95px
+    }
+    .casestudy_box div{
+        position:relative;
+        top:auto;
+        bottom:0;
+        padding:2rem 0 .6rem
+    }
+    .casestudy_box img{
+        opacity:1
+    }
+    .casestudy_box:hover div{
+        opacity:1
+    }
+    .topfaqlinks li.nav-item{
+        width:50%;
+        margin-bottom:1rem;
+        text-align:center
+    }
+    .faybox-text{
+        padding:1.5rem
+    }
+    .covidpopup_main .video_bg{
+        background-position:left!important
+    }
+    .Interior-img_a img{
+        width:100%;
+        margin-left:15px;
+        padding-right:29px;
+        height:auto
+    }
+    .Interior-text_a{
+        margin-top:10px
+    }
+    .Interior-detal{
+        background:#191919;
+        padding:20px;
+        margin-top:25px;
+        height:auto
+    }
+    .video_bg_a{
+        padding-top:8rem;
+        height:auto!important;
+        padding:1rem 0!important
+    }
+    .description_a{
+        padding:10px 20px 20px
+    }
+    .proto-box_a{
+        margin-bottom:.1rem
+    }
+    .description_b{
+        float:unset
+    }
+    .description_1{
+        height:auto;
+        padding:1rem
+    }
+    .supplement_text_a{
+        height:auto;
+        padding:1rem!important
+    }
+    .description_aa{
+        height:auto
+    }
+    .description_aa1{
+        float:unset
+    }
+    .description_ab,.description_ac,.description_ad,.description_ae,.description_af,.description_ag,.description_ah,.description_ai,.description_aj{
+        height:auto
+    }
+}
+@media only screen and (min-width:240px) and (max-width:479px){
+    .servi_dots1 p{
+        float:unset
+    }
+}
+@media only screen and (min-width:480px) and (max-width:767px){
+    .covid_protocol{
+        display:block;
+        width:100%;
+        text-align:center;
+        padding-top:5px
+    }
+    .covid_protocol h5{
+        font-size:10px;
+        top:0
+    }
+    .topnav ul{
+        float:unset;
+        text-align:center
+    }
+    .header{
+        top:54px
+    }
+    .header .logo a img{
+        width:98px
+    }
+    header{
+        height:130px
+    }
+    .topnav ul li a svg{
+        padding:3px;
+        width:20px!important;
+        height:20px
+    }
+    .topnav ul li svg{
+        margin:0 0 0 6px
+    }
+    .topnav ul li img{
+        width:17px;
+        margin-right:6px
+    }
+    .botarrow{
+        display:none
+    }
+    .bannertopimg{
+        height:180px;
+        background-position:center
+    }
+    .portfolio{
+        padding-top:4rem;
+        padding-bottom:5rem
+    }
+    .title{
+        font-size:12px;
+        margin-bottom:8px
+    }
+    .subtitle{
+        font-size:22px;
+        width:90%;
+        margin:auto
+    }
+    section.portfolio p{
+        font-size:12px
+    }
+    .portfolio .allproject .projectbox{
+        max-width:100%;
+        outline-offset:-10px;
+        margin-bottom:2.5rem
+    }
+    .portfolio .allproject .projectbox .image{
+        width:100%;
+        height:auto
+    }
+    .portfolio .allproject .projectbox .description{
+        padding:15px 20px 25px
+    }
+    .portfolio .allproject .projectbox .description .name{
+        font-size:16px;
+        letter-spacing:.25px
+    }
+    .video_bg .subtitle br{
+        display:none
+    }
+    .video_bg .subtitle{
+        font-size:23px
+    }
+    .video_bg{
+        height:290px;
+        padding-top:3.5rem;
+        background-position:center top;
+        background-attachment:unset
+    }
+    .video_bg img{
+        max-width:36px
+    }
+    .testimonial{
+        padding-top:4.6rem;
+        padding-bottom:4.6rem
+    }
+    .testimonial .subtitle br{
+        display:none
+    }
+    .testimonial .testimonialbg{
+        margin-top:2rem
+    }
+    .testimonial .swiper-slide{
+        padding:10px 0 0
+    }
+    .testimonial .testbox{
+        padding:0 10px;
+        height:auto;
+        min-height:543px;
+        display:block
+    }
+    .testimonial .testbox .image{
+        display:block;
+        width:100%;
+        font-size:12px;
+        margin:14px 0 23px
+    }
+    .testimonial .testbox .image .name{
+        margin-bottom:5px
+    }
+    .testimonialhome .swiper-button-next,.testimonialhome .swiper-button-prev{
+        top:auto;
+        bottom:0
+    }
+    .testimonialhome .swiper-button-prev,.testimonialhome .swiper-container-rtl .swiper-button-next{
+        left:20%;
+        right:auto
+    }
+    .testimonialhome .swiper-button-next,.testimonialhome .swiper-container-rtl .swiper-button-prev{
+        right:20%;
+        left:auto
+    }
+    section.testimonial .testbox .text{
+        display:block;
+        max-width:100%;
+        width:90%;
+        margin:auto
+    }
+    section.testimonial .testbox .text .testtitle{
+        font-size:18px;
+        text-align:center;
+        margin-bottom:20px
+    }
+    .testimonial .testbox .text p{
+        text-align:center
+    }
+    .testimonial .swiper-button-prev:after,.testimonial .swiper-button-next:after{
+        font-size:20px
+    }
+    .testimonial .swiper-container{
+        padding-bottom:2.5rem
+    }
+    .ourclient .container.small img{
+        width:90%
+    }
+    .lookinside{
+        padding:5.5rem 0 4.5rem
+    }
+    .lookinside .description{
+        width:100%;
+        padding:25px 15px
+    }
+    .lookinside .description{
+        margin-left:0;
+        height:auto;
+        margin-top:0
+    }
+    .lookinside .description .subtitle{
+        font-size:22px
+    }
+    .lookinside .images{
+        width:100%;
+        height:260px;
+        background-size:cover
+    }
+    .contactsec .numberlist{
+        width:100%;
+        left:0;
+        margin-top:20px
+    }
+    .aboutsec{
+        margin-bottom:3.5rem
+    }
+    .followus{
+        margin-bottom:2.5rem
+    }
+    .contactsec .contactform .sectitle{
+        margin-top:-60px
+    }
+    .contactsec .contactform{
+        padding:35px 15px 25px
+    }
+    .contactform .subtitle{
+        font-size:22px
+    }
+    .contactsec .contactform .row{
+        margin-top:40px
+    }
+    .contactsec .contactform .form-group:last-child{
+        margin-bottom:1.4rem
+    }
+    .homesub_btn{
+        margin-top:.9rem
+    }
+    footer{
+        padding:40px 15px 20px 10px
+    }
+    footer .newslatter{
+        width:100%;
+        margin-bottom:40px
+    }
+    footer .newslatter ul{
+        margin-top:5px;
+        margin-bottom:20px
+    }
+    .video_bg.topsubban{
+        background-position:left top!important;
+        background-size:cover
+    }
+    .counter_box{
+        margin:0 5px;
+        margin-bottom:2rem
+    }
+    .countermainbox{
+        display:block
+    }
+    .counter_main{
+        padding:2.5rem 0 2rem;
+        display:none
+    }
+    .leadership_main{
+        padding:3.4rem 0 2.5rem
+    }
+    .leader_text{
+        padding:.9rem 1rem .1rem;
+        min-height:auto
+    }
+    .leadership_box{
+        margin-top:2rem
+    }
+    .thestudio_main .description p{
+        margin-bottom:15px
+    }
+    .thestudio_main .description{
+        margin-left:0;
+        height:auto;
+        margin-top:0;
+        width:100%;
+        padding:15px 15px 1px
+    }
+    .thestudio_main .studioimg{
+        width:100%;
+        height:260px
+    }
+    .thestudio_main{
+        padding:2rem 0
+    }
+    .thestudio_main .studioimg{
+        width:100%;
+        height:260px
+    }
+    .thestudio_main.rightimg .description{
+        padding:15px 15px 1px
+    }
+    .thestudio_main .description{
+        height:auto;
+        margin-top:0;
+        width:100%
+    }
+    .ourprocess_main{
+        padding:2rem 0 3.6rem
+    }
+    .process_box h4{
+        font-size:14px;
+        margin-bottom:1.4rem
+    }
+    .process_box img{
+        margin-bottom:.9rem
+    }
+    .process_box{
+        margin-bottom:5rem
+    }
+    .process_box::after{
+        right:0;
+        top:unset;
+        left:2px;
+        transform:rotate(90deg)
+    }
+    .ourprocess_main .learnmore{
+        margin-top:-1.5rem;
+        position:relative
+    }
+    .valuemain{
+        margin:2rem 0 2.5rem
+    }
+    .value_box>div{
+        padding-top:0
+    }
+    .value_box{
+        padding:1.1rem 1rem;
+        height:auto;
+        display:block
+    }
+    .vacancies_main{
+        margin:3rem 0 6rem
+    }
+    .accordion .card .card-header .btn-header-link{
+        width:96%
+    }
+    .whyworkus{
+        width:100%;
+        min-height:390px;
+        height:auto;
+        padding:1.5rem .9rem .9rem;
+        display:block
+    }
+    .workwithus{
+        margin-top:2.2rem
+    }
+    .leftright_img{
+        width:100%;
+        height:260px!important
+    }
+    .accordion .card .card-header .btn-header-link:after{
+        position:absolute;
+        right:0
+    }
+    .leftimg .whyworkus{
+        margin-left:0
+    }
+    .leftright_text{
+        width:100%;
+        height:auto;
+        padding:1.2rem 1rem;
+        display:block
+    }
+    .leftright_main{
+        margin:2.5rem 0 3.6rem
+    }
+    .staff_testitext{
+        height:auto;
+        max-width:80%;
+        margin-top:2rem
+    }
+    .career_testimonial{
+        height:auto;
+        padding:2.2rem 0 3.5rem;
+        background-attachment:unset
+    }
+    .stafftesti .swiper-pagination.swiper-pagination-fraction{
+        bottom:-30px
+    }
+    .stafftesti .swiper-button-prev:after,.stafftesti .swiper-button-next:after{
+        font-size:20px
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{
+        bottom:-10px
+    }
+    .career_applyform{
+        margin:0 0 3rem;
+        padding-top:3.5rem
+    }
+    .career_applyform form .form-control{
+        margin-bottom:1rem;
+        padding:12px 15px;
+        height:40px
+    }
+    .career_applyform form{
+        margin-top:2rem
+    }
+    .service_toptext{
+        padding:3rem 0 .1rem
+    }
+    .leftright_text p{
+        margin-bottom:.7rem
+    }
+    .leftimg .leftright_text{
+        margin-left:0
+    }
+    .comservi_main{
+        padding:.5rem 0 3rem;
+        margin-top:5.5rem;
+        margin-bottom:.5rem
+    }
+    .servi_dots ul li{
+        width:100%;
+        margin-bottom:.2rem
+    }
+    .servi_dots ul{
+        margin:1rem 0 0;
+        padding-left:1rem
+    }
+    .service_client{
+        padding:4.5rem 0 4.8rem;
+        background-attachment:unset
+    }
+    .ser_clientbox img{
+        max-width:202px
+    }
+    .servicetesti_box{
+        width:100%;
+        margin:4rem auto;
+        padding:1rem
+    }
+    .lefttesti_img{
+        display:block;
+        width:100%;
+        padding-left:0
+    }
+    .righttesti_text{
+        display:block;
+        width:100%;
+        padding-left:0
+    }
+    .righttesti_text p{
+        margin-bottom:1rem
+    }
+    .leftimg.map_addresh{
+        margin-left:0
+    }
+    .map_addresh{
+        width:100%;
+        padding:.9rem 1.1rem 2px
+    }
+    .address_number>div{
+        width:100%
+    }
+    .mapmian{
+        margin:0 0 4rem
+    }
+    .getknow_people{
+        padding:3rem 0;
+        height:auto;
+        background-attachment:unset
+    }
+    .people_icon a svg{
+        margin-bottom:.3rem
+    }
+    .developer_sertext{
+        margin:2rem 0 5rem
+    }
+    .developer_sertext h2{
+        font-size:18px
+    }
+    .developer_client{
+        padding:3.5rem 0;
+        background-attachment:unset
+    }
+    .developclient_box{
+        margin-top:2rem
+    }
+    .developclient_box img{
+        width:100%
+    }
+    .phase_img img{
+        width:100%;
+        height:340px;
+        object-fit:cover
+    }
+    .phase_text{
+        width:100%;
+        height:auto;
+        padding:1rem 1.2rem
+    }
+    .phase_box{
+        margin:.2rem 0 4rem
+    }
+    .phase2_hw .phase_img img{
+        width:100%;
+        right:0;
+        height:340px;
+        object-fit:cover
+    }
+    .phase2_hw .phase_text{
+        height:auto;
+        padding-top:1rem
+    }
+    .phase3_hw .phase_img img{
+        width:100%;
+        height:340px;
+        object-fit:cover
+    }
+    .phase3_hw .phase_text{
+        height:auto;
+        padding-top:1rem
+    }
+    .notmumbai_main{
+        padding:3rem 0;
+        height:auto;
+        background-attachment:unset
+    }
+    .contactsec{
+        padding-bottom:4.5rem
+    }
+    .projectmain_tab .nav .nav-item .nav-link{
+        font-size:10px;
+        margin:0
+    }
+    .projectmain_tab .nav{
+        justify-content:space-between;
+        margin-bottom:2rem!important
+    }
+    .projectmain_box{
+        max-width:100%;
+        outline-offset:-10px;
+        margin-bottom:2.5rem
+    }
+    .projectmain_box .description{
+        padding:10px 20px 20px
+    }
+    .projectmain_box .description .name{
+        font-size:16px;
+        margin-bottom:.3rem
+    }
+    .projectmain_box .image{
+        width:100%;
+        height:auto
+    }
+    .leftvi .portfoliovideo_text{
+        margin-left:0
+    }
+    .portfoliovideo_text{
+        width:100%;
+        height:auto;
+        padding:1rem
+    }
+    .portfoliovideo_text h2{
+        font-size:20px
+    }
+    .portfoliovideo_text h3{
+        font-size:12px
+    }
+    .portfoliopage_main{
+        padding:4rem 0 2.5rem
+    }
+    .protfolio_videmain{
+        margin:2rem 0 3.5rem
+    }
+    .leftright_text ul li{
+        float:unset;
+        width:100%;
+        margin-bottom:.3rem
+    }
+    .leftright_text h3{
+        font-size:12px;
+        line-height:1.5
+    }
+    .leftright_text h4{
+        font-size:18px;
+        line-height:1.5
+    }
+    .leftright_text h6{
+        margin:-.4rem 0 1rem
+    }
+    .leftright_img.mariaimg{
+        height:400px!important
+    }
+    .supplement_box{
+        margin-bottom:2rem
+    }
+    .supplement_text{
+        padding:1.4rem
+    }
+    .supplement_text h4{
+        font-size:12px;
+        margin-bottom:.9rem
+    }
+    .supplement_main{
+        margin:1rem 0 -1rem
+    }
+    .leftright_text.fheight{
+        height:auto
+    }
+    .post_completion{
+        padding:3.5rem 0;
+        background-attachment:unset
+    }
+    .completion_box h6{
+        font-size:13px
+    }
+    .casestudy_main{
+        margin-top:3rem;
+        margin-bottom:2rem
+    }
+    .casestudy_box{
+        width:100%;
+        height:auto;
+        margin-bottom:2rem
+    }
+    .working_sertext h2{
+        font-size:18px
+    }
+    .working_sertext{
+        margin:1rem 0 3.5rem
+    }
+    .sanitizing_box{
+        min-height:auto;
+        padding:2rem 1rem 1rem .1rem;
+        margin-bottom:1.5rem
+    }
+    .officeseni_main{
+        margin:3.5rem 0 2.4rem
+    }
+    .popup_kaizad{
+        margin-bottom:4.5rem
+    }
+    .popup_kaizad h2{
+        font-size:18px
+    }
+    .covidpopup_box .popupclose{
+        z-index:999
+    }
+    .manymore_design{
+        padding:4rem 0;
+        margin-bottom:4rem
+    }
+    .process_box p{
+        margin-bottom:1.2rem
+    }
+    .ourclient{
+        background-attachment:unset
+    }
+    .tial_br{
+        display:block
+    }
+    .righttesti_text h3{
+        margin-bottom:2rem;
+        line-height:1.5;
+        text-align:center
+    }
+    .lefttesti_img h6{
+        margin-bottom:1.3rem
+    }
+    .lefttesti_img h5{
+        margin-top:14px;
+        margin-bottom:.4rem
+    }
+    .contactsec .numberlist li{
+        margin-left:1.5rem
+    }
+    .numberlist.numblistmobi li a{
+        font-size:14px;
+        letter-spacing:.85px;
+        font-weight:400
+    }
+    .numberlist.numblistmobi li{
+        text-align:center!important;
+        margin:0
+    }
+    .mapimg a{
+        white-space:pre;
+        min-width:95px
+    }
+    .casestudy_box div{
+        position:relative;
+        top:auto;
+        bottom:0;
+        padding:2rem 0 .6rem
+    }
+    .casestudy_box img{
+        opacity:1
+    }
+    .casestudy_box:hover div{
+        opacity:1
+    }
+    .topfaqlinks li.nav-item{
+        width:50%;
+        margin-bottom:1rem;
+        text-align:center
+    }
+    .faybox-text{
+        padding:1.5rem
+    }
+    .covidpopup_main .video_bg{
+        background-position:left!important
+    }
+    .Interior-img_a img{
+        width:100%;
+        margin-left:15px;
+        padding-right:29px;
+        height:auto
+    }
+    .Interior-text_a{
+        margin-top:10px
+    }
+    .Interior-detal{
+        background:#191919;
+        padding:20px;
+        margin-top:25px;
+        height:auto
+    }
+    .video_bg_a{
+        padding-top:8rem;
+        height:auto!important;
+        padding:1rem 0!important
+    }
+    .description_a{
+        padding:10px 20px 20px
+    }
+    .proto-box_a{
+        margin-bottom:.1rem
+    }
+    .description_b{
+        float:unset
+    }
+    .description_1{
+        height:auto;
+        padding:1rem
+    }
+    .supplement_text_a{
+        height:auto;
+        padding:1rem!important
+    }
+    .description_a{
+        max-width:auto
+    }
+    .description_2{
+        height:auto
+    }
+    .description_aa{
+        height:auto
+    }
+    .description_aa1{
+        float:unset
+    }
+    .description_ab,.description_ac,.description_ad,.description_ae,.description_af,.description_ag,.description_ah,.description_ai,.description_aj{
+        height:auto
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .covid_protocol{
+        width:auto
+    }
+    .bannertopimg{
+        height:370px
+    }
+    .portfolio .allproject .projectbox .image{
+        width:100%;
+        height:auto
+    }
+    .portfolio .allproject .projectbox .description .name{
+        min-height:54px
+    }
+    .video_bg{
+        height:390px;
+        padding-top:6rem;
+        background-attachment:unset
+    }
+    .video_bg img{
+        max-width:46px
+    }
+    .subtitle{
+        font-size:24px
+    }
+    section.testimonial .testbox .text{
+        width:77%;
+        padding-left:20px
+    }
+    .testimonial .testbox{
+        padding:0 10px 0 15px;
+        height:285px
+    }
+    section.testimonial .testbox .text .testtitle{
+        margin-bottom:10px;
+        font-size:20px
+    }
+    .testimonial .testbox .text p{
+        margin-bottom:.5rem
+    }
+    .ourclient .container.small img{
+        width:90%
+    }
+    .lookinside .images{
+        background-size:cover;
+        width:550px;
+        height:394px;
+        margin:auto
+    }
+    .lookinside .description{
+        width:550px;
+        padding:25px;
+        margin-left:0;
+        margin-top:0;
+        height:auto;
+        margin:auto
+    }
+    .contactsec .numberlist{
+        width:49%
+    }
+    footer .newslatter{
+        width:100%;
+        margin-top:-40%
+    }
+    .thestudio_main .studioimg{
+        width:550px;
+        height:394px;
+        margin:auto
+    }
+    .thestudio_main .description{
+        margin-left:0;
+        height:auto;
+        margin-top:0;
+        width:550px;
+        padding:1.6rem 1.5rem .6rem;
+        margin:auto
+    }
+    .thestudio_main{
+        padding:2rem 0 3rem
+    }
+    .thestudio_main.rightimg .description{
+        padding:1.6rem 1.5rem .6rem
+    }
+    .process_box h4{
+        font-size:13px
+    }
+    .projectmain_box .image{
+        width:100%;
+        height:auto
+    }
+    .projectmain_box .description .name{
+        min-height:54px
+    }
+    .portfoliopage_main{
+        padding:4rem 0 3.5rem
+    }
+    .portfoliovideo_leftimg img{
+        width:550px;
+        margin:auto;
+        display:block
+    }
+    .portfoliovideo_text{
+        width:552px;
+        height:auto;
+        padding:1.5rem 2rem;
+        margin:auto!important
+    }
+    .phase_img img{
+        width:550px;
+        margin:auto;
+        display:block;
+        height:394px;
+        object-fit:cover
+    }
+    .not_center .phase_text>div{
+        padding-top:0
+    }
+    .phase_text{
+        width:550px;
+        height:auto;
+        padding:1.5rem 2rem;
+        margin:auto
+    }
+    .phase2_hw .phase_img img{
+        width:550px;
+        right:auto;
+        height:394px
+    }
+    .phase2_hw .phase_text{
+        height:auto;
+        padding-top:1.7rem
+    }
+    .phase3_hw .phase_img img{
+        width:550px;
+        height:394px
+    }
+    .phase3_hw .phase_text{
+        height:auto;
+        padding-top:1.8rem
+    }
+    .servicetesti_box{
+        width:100%;
+        margin:5.6rem auto;
+        padding:1.8rem 1rem 1rem
+    }
+    .notmumbai_main{
+        height:350px;
+        background-attachment:unset
+    }
+    .leftright_img{
+        width:550px;
+        height:394px;
+        margin:auto
+    }
+    .leftimg .leftright_text{
+        margin:auto;
+        margin-left:auto;
+        width:550px;
+        height:auto;
+        padding:1.4rem 1.8rem
+    }
+    .casestudy_box:hover div{
+        opacity:1
+    }
+    .casestudy_box h5{
+        font-size:18px;
+        letter-spacing:.45px
+    }
+    .casestudy_box div{
+        position:relative;
+        top:0;
+        padding:23px 0 1px
+    }
+    .casestudy_box img{
+        opacity:1
+    }
+    .casestudy_box{
+        height:auto
+    }
+    .working_sertext h2{
+        font-size:20px;
+        width:90%
+    }
+    .leftright_main{
+        margin:2.5rem 0 5rem
+    }
+    .working_sertext{
+        margin:1.6rem 0 4.5rem
+    }
+    .leftright_text{
+        width:550px;
+        height:auto;
+        padding:1.5rem 2rem;
+        margin:auto
+    }
+    .lefttesti_img{
+        padding-left:0
+    }
+    .righttesti_text{
+        padding-left:2rem
+    }
+    .topfaqlinks .nav .nav-item .nav-link{
+        font-size:12px;
+        padding:0 10px 4px
+    }
+    .faybox-text{
+        padding:2rem
+    }
+    .service_toptext{
+        padding:3rem 0 1.5rem
+    }
+    .value_box{
+        padding:.3rem .6rem;
+        height:auto;
+        min-height:350px
+    }
+    .valuemain{
+        margin:-3rem 0 2.5rem
+    }
+    .vacancies_according{
+        max-width:74%;
+        margin-top:2rem
+    }
+    .vacancies_main{
+        margin:4rem 0
+    }
+    .leftimg .whyworkus{
+        width:550px;
+        margin:auto;
+        height:auto;
+        min-height:350px;
+        display:block;
+        padding:1.5rem 2.1rem 1rem
+    }
+    .career_testimonial{
+        background-attachment:unset
+    }
+    .staff_testitext{
+        height:250px;
+        margin-top:2rem;
+        width:85%
+    }
+    .stafftesti .swiper-pagination.swiper-pagination-fraction{
+        bottom:-10px
+    }
+    .career_applyform{
+        margin:0 0 4.5rem;
+        padding-top:4.5rem
+    }
+    .leftimg.map_addresh{
+        margin:auto;
+        width:550px;
+        margin:auto
+    }
+    .mapimg img{
+        width:550px;
+        margin:auto;
+        display:block
+    }
+    .map_addresh{
+        width:550px;
+        height:auto;
+        padding:1rem 1.5rem;
+        display:block;
+        margin:auto
+    }
+    .people_icon{
+        padding:0
+    }
+    .servi_text{
+        margin-top:-1rem;
+        margin-bottom:2rem
+    }
+    .ser_clientbox img{
+        width:70%
+    }
+    .service_clientslider .swiper-button-prev:after,.service_clientslider .swiper-button-next:after{
+        font-size:22px
+    }
+    .leftright_img.mariaimg{
+        height:590px
+    }
+    .supplement_box img{
+        width:100%;
+        height:128px
+    }
+    .post_completion{
+        background-attachment:unset;
+        padding:3rem 0
+    }
+    .developer_client{
+        background-attachment:unset;
+        padding:4rem 0
+    }
+    .developclient_box img{
+        width:100%
+    }
+    .Interior-img_a img{
+        height:auto
+    }
+    .Interior-detal{
+        background:#191919;
+        padding:30px;
+        margin-top:20px;
+        height:auto
+    }
+    .Interior-text_a{
+        margin-top:-150px
+    }
+    .video_bg_a{
+        height:auto!important;
+        padding:3rem 0!important
+    }
+    .description_a{
+        max-width:auto
+    }
+    .description_2{
+        height:auto
+    }
+    .description_1{
+        height:auto
+    }
+    .supplement_text_a{
+        height:auto
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .header .menu ul li a{
+        font-size:13px
+    }
+    .header .menu ul li{
+        padding:33px 0 15px 9px
+    }
+    .bannertopimg{
+        height:490px
+    }
+    .portfolio .allproject .projectbox .image{
+        width:100%;
+        height:auto
+    }
+    .video_bg{
+        height:530px;
+        background-attachment:unset
+    }
+    .testimonial .testbox{
+        padding:0 20px
+    }
+    .ourclient{
+        background-attachment:unset
+    }
+    .lookinside .images{
+        width:520px;
+        height:424px;
+        margin-left:4%
+    }
+    .lookinside .description{
+        width:110%;
+        padding:50px 30px;
+        margin-top:45px
+    }
+    body{
+        background-size:100%
+    }
+    .counter_main{
+        display:none
+    }
+    .thestudio_main .description{
+        width:110%;
+        padding:50px 30px;
+        margin-top:40px
+    }
+    .thestudio_main .studioimg{
+        width:96.4%;
+        height:384px;
+        margin-left:4%
+    }
+    .rightimg .studioimg{
+        margin-left:0
+    }
+    .thestudio_main.rightimg .description{
+        padding:2.3rem 2rem;
+        margin-left:4%!important
+    }
+    .projectmain_box .image{
+        width:100%;
+        height:auto
+    }
+    .phase_text{
+        height:389px;
+        padding:1rem 3.4rem
+    }
+    .phase2_hw .phase_text{
+        height:600px;
+        padding-top:1rem
+    }
+    .phase3_hw .phase_img img{
+        width:130%
+    }
+    .phase3_hw .phase_text{
+        height:562px;
+        padding-top:1rem
+    }
+    .notmumbai_main{
+        height:370px;
+        background-attachment:unset
+    }
+    .casestudy_box:hover div{
+        opacity:1
+    }
+    .casestudy_box div{
+        position:relative;
+        top:0;
+        padding:1.7rem 0 1px
+    }
+    .casestudy_box:hover img{
+        opacity:1
+    }
+    .casestudy_box{
+        width:100%;
+        height:auto
+    }
+    .casestudy_box img{
+        opacity:1
+    }
+    .topfaqlinks .nav .nav-item .nav-link{
+        padding:0 10px 4px
+    }
+    .career_testimonial{
+        background-attachment:unset;
+        height:480px
+    }
+    .stafftesti .swiper-pagination.swiper-pagination-fraction{
+        bottom:-20px
+    }
+    .getknow_people{
+        background-attachment:unset
+    }
+    .service_client{
+        background-attachment:unset
+    }
+    .developer_client{
+        background-attachment:unset;
+        padding:3.5rem 0
+    }
+    .post_completion{
+        background-attachment:unset;
+        padding:3rem 0 3.6rem
+    }
+}
+@media only screen and (min-width:1201px){
+    .container{
+        max-width:1300px;
+        padding-right:15px;
+        padding-left:15px
+    }
+}
